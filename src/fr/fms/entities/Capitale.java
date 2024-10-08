@@ -8,10 +8,7 @@ public class Capitale extends City{
 		super(name, country, nbrOfpeople);
 		this.monument = monument; 
 	}
-	public Capitale (String monument) {
-		super("");
-		this.monument = monument; 
-	}
+	
 	
 	public String getMonument() {
 		return monument; 
